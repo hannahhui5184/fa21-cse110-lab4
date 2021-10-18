@@ -11,30 +11,43 @@
 10. The console prints "3" because this is the length of the prices list. We are able to print this variable because there is no modification of a constant happening.
 11. This function will return a list of discounted prices, [ 50, 100, 150 ], (the discounted prices being in parallel to their respective original prices). This is because in the discountPrices function, we find the discounted price for each element in the list and push it to the list we return; and the new list we return is modified with pushing elements but not reassigned another list.
 
-12.    
-12A. student.name
-12B. student['Grad Year']
-12C. student.greeting
-12D. student['Favorite Teacher'].name
-12E. student.courseLoad[0]
+12. a) student.name
+    
+    b) student['Grad Year']
 
-13. 
-13A. '3' + 2        ==> '32' because 2 is turned into a string '2' and then concatenated with '3'.
-13B. '3' - 2        ==> 1 because there is no - operation for strings, so '3' is turned into a number 3 and 3 - 2 = 1.
-13C. 3 + null       ==> 3 because null is turned into a number 0 and then added to 3.
-13D. '3' + null     ==> '3null' because null is converted into the string 'null' and concatenated with '3'.
-13E. true + 3       ==> 4 because true is converted into a numeric value of 1 and then added with 3.
-13F. false + null   ==> 0 because false is converted into a numeric value of 0 and then added with the numeric value of null (which is also 0).
-13G. '3' + undefined ==> '3undefined' because undefined is turned into a string 'undefined' and then '3' and 'undefined' are concatenated together.
-13H. '3' - undefined ==> NaN because '3' and undefined are converted into numeric values to perform subtraction. Since undefined becomes NaN, any arithmetic operation involving this NaN will result in NaN.
+    c) student.greeting
+    
+    d) student['Favorite Teacher'].name
 
-14. 
-14A. '2' > 1        ==> true because '2' is converted to a numeric 2 and 2 > 1 is true.
-14B. '2' < '12'     ==> false because dictionary-order wise, '1' will come before '2' and therefore '12' should be less than '2'.
-14C. 2 == '2'       ==> true because '2' is converted to a numeric 2 and 2==2 is true.
-14D. 2 === '2'      ==> false because 2 and '2' are of different types and we are using the strict equality comparator.
-14E. true == 2      ==> false because true is converted to a numeric 1 and 1 == 2 is false.
-14F. true === Boolean(2. ==> true because Boolean(2. is evaluated to true and true === true is true.
+    e) student.courseLoad[0]
+
+13. a) '3' + 2        ==> '32' because 2 is turned into a string '2' and then concatenated with '3'.
+
+    b) '3' - 2        ==> 1 because there is no - operation for strings, so '3' is turned into a number 3 and 3 - 2 = 1.
+
+    c) 3 + null       ==> 3 because null is turned into a number 0 and then added to 3.
+
+    d) '3' + null     ==> '3null' because null is converted into the string 'null' and concatenated with '3'.
+    
+    e) true + 3       ==> 4 because true is converted into a numeric value of 1 and then added with 3.
+
+    f) false + null   ==> 0 because false is converted into a numeric value of 0 and then added with the numeric value of null (which is also 0).
+
+    g) '3' + undefined ==> '3undefined' because undefined is turned into a string 'undefined' and then '3' and 'undefined' are concatenated together.
+    
+    h) '3' - undefined ==> NaN because '3' and undefined are converted into numeric values to perform subtraction. Since undefined becomes NaN, any arithmetic operation involving this NaN will result in NaN.
+
+14. a) '2' > 1        ==> true because '2' is converted to a numeric 2 and 2 > 1 is true.
+
+    b) '2' < '12'     ==> false because dictionary-order wise, '1' will come before '2' and therefore '12' should be less than '2'.
+
+    c) 2 == '2'       ==> true because '2' is converted to a numeric 2 and 2==2 is true.
+
+    d) 2 === '2'      ==> false because 2 and '2' are of different types and we are using the strict equality comparator.
+
+    e) true == 2      ==> false because true is converted to a numeric 1 and 1 == 2 is false.
+
+    f) true === Boolean(2. ==> true because Boolean(2. is evaluated to true and true === true is true.
 
 15. The == allows for type conversion of either/both sides and then evaluates the converted types for equality, whereas the === operator will always return false for different types.
 
